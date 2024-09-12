@@ -1,0 +1,186 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #34495e;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar button {
+  background-color: #e74c3c;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #c0392b;
+}
+
+/* Headers */
+h2 {
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Profile form styles */
+.profile-form {
+  margin-bottom: 40px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/* Commute days checkboxes */
+.checkbox-group label {
+  margin-right: 15px;
+}
+
+/* Users list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Match results */
+.match-results {
+  margin-top: 20px;
+}
+
+.match-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.match-results li {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Chat styles */
+.chat-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f9;
+  max-width: 500px;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.sent {
+  text-align: right;
+  background-color: #dff9fb;
+}
+
+.message.received {
+  text-align: left;
+  background-color: #c7ecee;
+}
+
+.chat-form {
+  display: flex;
+  align-items: center;
+}
+
+.chat-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.chat-form button {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
